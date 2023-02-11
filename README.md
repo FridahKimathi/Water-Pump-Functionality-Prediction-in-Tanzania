@@ -24,7 +24,7 @@ The data used in this project is from the <a href="https://www.drivendata.org/co
 Different models were evaluated and the best performing model was picked to be the final model.The Random Forest Classifier was picked as the final model, with its parameters being the best parameters found through grid search. 
 
           Models
- <img src="Images\models.jpg"> 
+ <img src="Images\models.jpg"  width="650" height="400"> 
 
 
 ## Evaluation
@@ -33,13 +33,13 @@ The accuracy score of the model is 0.7937. That means that the model predicts th
 The most important features according to the final model are age, population, latitude, longitude, gps_height, amount_tsh, permit, public_meeting, district code and region code.
 
             Accuracy score
- <img src="Images\submission_results.jpg"> 
+ <img src="Images\submission_results.jpg"  width="650" height="400"> 
 
            Feature importance
-<img src="Images\feature_importance.jpg">
+<img src="Images\feature_importance.jpg"  width="650" height="400">
 
           Confusion Matrix
- <img src="Images\cnf_matrix.jpg"> 
+ <img src="Images\cnf_matrix.jpg"  width="650" height="400"> 
 
 ## Conclusion
 ***
