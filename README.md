@@ -23,8 +23,8 @@ The data used in this project is from the <a href="https://www.drivendata.org/co
 ***
 Different models were evaluated and the best performing model was picked to be the final model.The Random Forest Classifier was picked as the final model, with its parameters being the best parameters found through grid search. 
 
-          Models
- <img src="Images\models.jpg"> 
+                Models
+ <img src="Images\models.jpg"  width="650" height="400"> 
 
 
 ## Evaluation
@@ -32,14 +32,14 @@ Different models were evaluated and the best performing model was picked to be t
 The accuracy score of the model is 0.7937. That means that the model predicts the correct water pump functionality status 79.37% of the time.
 The most important features according to the final model are age, population, latitude, longitude, gps_height, amount_tsh, permit, public_meeting, district code and region code.
 
-            Accuracy score
- <img src="Images\submission_results.jpg"> 
+                Accuracy score
+ <img src="Images\submission_results.jpg"  width="650" height="400"> 
 
-           Feature importance
-<img src="Images\feature_importance.png">
+               Feature importance
+<img src="Images\feature_importance.jpg"  width="650" height="400">
 
-          Confusion Matrix
- <img src="Images\cnf_matrix.png"> 
+              Confusion Matrix
+ <img src="Images\cnf_matrix.jpg"  width="650" height="400"> 
 
 ## Conclusion
 ***
@@ -59,7 +59,7 @@ The overall data used was not up to date and was not reliably gathered, it conta
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/FridahKimathi/House-Sales-in-King-County-Washington-USA/blob/main/index.ipynb) or review this [presentation](https://github.com/FridahKimathi/House-Sales-in-King-County-Washington-USA/blob/main/House%20Sale%20King%20County%2CUSA%20Presentation.pdf).
+See the full analysis in the [Jupyter Notebook](https://github.com/FridahKimathi/Water-Pump-Functionality-Prediction-in-Tanzania/blob/main/index.ipynb) or review this [presentation](https://github.com/FridahKimathi/Water-Pump-Functionality-Prediction-in-Tanzania/blob/main/Water%20Pump%20Functionality%20Prediction%20-Presentation%20PPT.pdf).
 
 For additional info, contact Fridah Kimathi at [fridahnkirotekimathi@gmail.com](mailto:fridahnkirotekimathi@gmail.com) or via my [LinkedIn profile](https://www.linkedin.com/in/fridah-kimathi-91608418b/).
 
@@ -68,10 +68,9 @@ For additional info, contact Fridah Kimathi at [fridahnkirotekimathi@gmail.com](
 ## Repository Structure
 
 ```
-├── .gitignore
-├── data
-├── images
-├── House Sale King County,USA Presentation.pdf
+├── Data
+├── Images
 ├── README.md
+├── Water Pump Functionality Prediction 
 └── index.ipynb
 ```
