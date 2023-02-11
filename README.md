@@ -36,10 +36,10 @@ The most important features according to the final model are age, population, la
  <img src="Images\submission_results.jpg"> 
 
            Feature importance
-<img src="Images\feature_importance.png">
+<img src="Images\feature_importance.jpg">
 
           Confusion Matrix
- <img src="Images\cnf_matrix.png"> 
+ <img src="Images\cnf_matrix.jpg"> 
 
 ## Conclusion
 ***
@@ -59,7 +59,7 @@ The overall data used was not up to date and was not reliably gathered, it conta
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/FridahKimathi/House-Sales-in-King-County-Washington-USA/blob/main/index.ipynb) or review this [presentation](https://github.com/FridahKimathi/House-Sales-in-King-County-Washington-USA/blob/main/House%20Sale%20King%20County%2CUSA%20Presentation.pdf).
+See the full analysis in the [Jupyter Notebook](https://github.com/FridahKimathi/Water-Pump-Functionality-Prediction-in-Tanzania/blob/main/index.ipynb) or review this [presentation](https://github.com/FridahKimathi/Water-Pump-Functionality-Prediction-in-Tanzania/blob/main/Water%20Pump%20Functionality%20Prediction%20-Presentation%20PPT.pdf).
 
 For additional info, contact Fridah Kimathi at [fridahnkirotekimathi@gmail.com](mailto:fridahnkirotekimathi@gmail.com) or via my [LinkedIn profile](https://www.linkedin.com/in/fridah-kimathi-91608418b/).
 
@@ -68,10 +68,9 @@ For additional info, contact Fridah Kimathi at [fridahnkirotekimathi@gmail.com](
 ## Repository Structure
 
 ```
-├── .gitignore
-├── data
-├── images
-├── House Sale King County,USA Presentation.pdf
+├── Data
+├── Images
 ├── README.md
+├── Water Pump Functionality Prediction 
 └── index.ipynb
 ```
