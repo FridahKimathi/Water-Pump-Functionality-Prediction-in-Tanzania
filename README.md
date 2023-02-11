@@ -43,7 +43,7 @@ The most important features according to the final model are age, population, la
 
 ## Conclusion
 ***
-The model performed best at the Functional water pumps, did adequately on nonfunctional water pumps, and had the most trouble correctly predicting the functional but needs repair water pumps.The model needs more data especially on nonfunctional/need repair water pumps for it to make an even better prediction. The features identified as the most important can be presented to the stakeholders(The government of Tanzania), to help them improve the maintenance/repair operations of water pumps.
+The accuracy score of the model is 0.7937. That means that the model predicts the correct water pump functionality status 79.37% of the time. The most important features according to the final model are permit, public_meeting, district code, region code, water type and source class. This features can be presented to the stakeholders(the government of Tanzania), to help them improve the maintenance/repair operations of water pumps.
 
 ## Limitations
 ***
@@ -71,6 +71,6 @@ For additional info, contact Fridah Kimathi at [fridahnkirotekimathi@gmail.com](
 ├── Data
 ├── Images
 ├── README.md
-├── Water Pump Functionality Prediction 
+├── Water Pump Functionality Prediction PPT
 └── index.ipynb
 ```
