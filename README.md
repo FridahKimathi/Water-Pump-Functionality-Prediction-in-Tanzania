@@ -30,7 +30,7 @@ Different models were evaluated and the best performing model was picked to be t
 ## Evaluation
 ***
 The accuracy score of the model is 0.7937. That means that the model predicts the correct water pump functionality status 79.37% of the time.
-The most important features according to the final model are  permit, public_meeting, district code, region code, water type and source class.
+The most important features according to the final model are amount_tsh, permit, public_meeting, district code, region code, water type and source class.
 
                 Accuracy score
  <img src="Images\submission_results.jpg"  width="650" height="400"> 
@@ -43,7 +43,7 @@ The most important features according to the final model are  permit, public_mee
 
 ## Conclusion
 ***
-The accuracy score of the model is 0.7937. That means that the model predicts the correct water pump functionality status 79.37% of the time. The most important features according to the final model are permit, public_meeting, district code, region code, water type and source class. This features can be presented to the stakeholders(the government of Tanzania), to help them improve the maintenance/repair operations of water pumps.
+The accuracy score of the model is 0.7937. That means that the model predicts the correct water pump functionality status 79.37% of the time. The most important features according to the final model are amount_tsh, permit, public_meeting, district code, region code, water type and source class. This features can be presented to the stakeholders(the government of Tanzania), to help them improve the maintenance/repair operations of water pumps.
 
 ## Limitations
 ***
