@@ -12,7 +12,7 @@ The project aims to develop a model to classify the functionality status of wate
 ***
 Tanzania is a developing country which is in the midst of a water crisis. The country struggles to provide clean water to its population of over 57 million people despite the fact that the country has many established water points. The Tanzanian government through the Ministry of Water aims at resolving the water crisis in the country by maintaining and repairing the water pumps in time. In order for its Engineers to achieve the objectives faster, they need to be know in advance which water pumps are likely to fail and understand the causes of failure.
 
-The project therefore, aims at developing a model using data collected by <a href="https://taarifa.org/">Taarifa </a> and the <a href="https://www.maji.go.tz/">Tanzanian Ministry of Water</a> to predicts the functionality status of the water pumps in Tanzania as well as provide important insights on the main factors contributing to water pump failure in Tanzania. The model created will enable the Tanzanian Ministry of Water to improve the maintenance operations its water pumps.
+The project therefore, aims at developing a model using data collected by <a href="https://taarifa.org/">Taarifa </a> and the <a href="https://www.maji.go.tz/">Tanzanian Ministry of Water</a> to predict the functionality status of the water pumps in Tanzania as well as provide important insights on the main factors contributing to water pump failure in Tanzania. The model created will enable the Tanzanian Ministry of Water to improve the maintenance operations its water pumps.
 
 ## Data
 ***
@@ -30,7 +30,7 @@ Different models were evaluated and the best performing model was picked to be t
 ## Evaluation
 ***
 The accuracy score of the model is 0.7937. That means that the model predicts the correct water pump functionality status 79.37% of the time.
-The most important features according to the final model are age, population, latitude, longitude, gps_height, amount_tsh, permit, public_meeting, district code and region code.
+The most important features according to the final model are  permit, public_meeting, district code, region code, water type and source class.
 
                 Accuracy score
  <img src="Images\submission_results.jpg"  width="650" height="400"> 
@@ -59,7 +59,7 @@ The overall data used was not up to date and was not reliably gathered, it conta
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/FridahKimathi/Water-Pump-Functionality-Prediction-in-Tanzania/blob/main/index.ipynb) or review this [presentation](https://github.com/FridahKimathi/Water-Pump-Functionality-Prediction-in-Tanzania/blob/main/Water%20Pump%20Functionality%20Prediction%20-Presentation%20PPT.pdf).
+See the full analysis in the [Jupyter Notebook](https://github.com/FridahKimathi/Water-Pump-Functionality-Prediction-in-Tanzania/blob/main/index.ipynb) or review this [presentation](https://github.com/FridahKimathi/Water-Pump-Functionality-Prediction-in-Tanzania/blob/main/Water%20Pump%20Functionality%20Prediction%20PPT.pdf).
 
 For additional info, contact Fridah Kimathi at [fridahnkirotekimathi@gmail.com](mailto:fridahnkirotekimathi@gmail.com) or via my [LinkedIn profile](https://www.linkedin.com/in/fridah-kimathi-91608418b/).
 
